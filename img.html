@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            border-radius:50%;
+            height:200px;
+            width:200px;
+        }
+        button{
+            height:100px;
+            width:100px;
+            border-radius:50%;
+            font-size:20%;
+            position:relative;
+            right:650px;
+            top:80px;
+        }
+        #a{
+            position:relative;
+            top:0px;
+            left:250px;
+        }
+        #b{
+            position:relative;
+            top:50px;
+            left:250px;
+        }
+        #c{
+            position:relative;
+            top:250px;
+            left:100px;
+        } 
+        #d{        
+            position:relative;
+            top:350px;
+            right:300px;
+}
+        #e{
+            position:relative;
+            top:200px;
+            right:680px;
+        }
+    </style>
+</head>
+
+<body>
+  <img src="1.jpg"id="a"name="a">  
+  <img src="2.jpg"id="b"name="b">  
+  <img src="3.jpg"id="c"name="c">  
+  <img src="1.jpg"id="d"name="d">  
+  <img src="2.jpg"id="e"name="e">  
+  <button onclick="changeImage()">change</button>
+</body>
+<script>
+    function changeImage(){
+        t=e.src;
+        e.src=d.src;
+       d.src=c.src;
+       c.src=b.src;
+       b.src=a.src;
+       a.src=t;
+    }
+</script>
+</html>

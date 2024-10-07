@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      table{
+         background-color: rgba(155, 42, 165, 0.301);
+      }
+   </style>
+</head>
+
+<script>
+    var r=0;
+    var t;
+    var sum2=0;
+   function tr11(){
+sum2=r;
+t1.value= " ";
+t=6;
+   }
+   function tr12(){
+sum2=r;
+t1.value=" ";
+t=5; 
+   }
+   function tr13(){
+var i="X";
+t1.value+="X";
+   }
+   function tr14(){
+sum2=r;
+t1.value=" ";
+t=4; 
+   }
+   function tr21(){
+var i=7;
+r=parseInt(t1.value+=7);
+   }
+   function tr22(){
+var i=8;
+r=parseInt(t1.value+=8);
+   }
+   function tr23(){
+var i=9;
+r=parseInt(t1.value+=9);
+   }
+   function tr24(){
+sum2=r;
+t1.value=" ";
+t=3;
+   }
+   function tr31(){
+var i=4;
+r=parseInt(t1.value+=4);
+   }
+   function tr32(){
+var i=5;
+r=parseInt(t1.value+=5);
+   }
+   function tr33(){
+var i=6;
+r=parseInt(t1.value+=6);
+   }
+   function tr34(){
+sum2=r;
+t1.value=" ";
+t=2;
+   }
+   function tr41(){
+var i=1;
+r=parseInt(t1.value+=2);
+   }
+   function tr42(){
+var i=2;
+r=parseInt(t1.value+=2);
+   }
+   function tr43(){
+var i=3;
+r=parseInt(t1.value+=3);
+   }
+   function tr44(){
+sum2=r;
+t1.value=" ";
+t=1;
+   }
+   function tr51(){
+var i=00;
+r=parseInt(t1.value+=00);
+   }
+   function tr52(){
+var i=0;
+r=parseInt(t1.value+=0);
+   }
+   function tr53(){
+var i=".";
+t1.value+=".";
+   }
+   function tr54(){
+if(t==1){
+sum2+=r;
+r=parseInt(t1.value=sum2);
+   }
+   else if(t==2){
+    sum2-=r;
+    r=parseInt(t1.value=sum2);
+   }
+   else if(t==3){
+    sum2*=r;
+    r=parseInt(t1.value=sum2);
+   }
+   else if(t==4){
+    sum2/=r;
+    r=parseInt(t1.value=sum2);
+   }
+   else if(t==5){
+    sum2%=r;
+    r=parseInt(t1.value=sum2);
+   }else if(t==6){
+    t1.value=" ";
+   }
+   }
+    </script>
+<body>
+    <table border="1"height="200px"width="200px">
+        <tr>
+            <th colspan="4"><input type="text"name="t1"id="t1"></th>
+            </tr>
+            <tr>
+                <th onclick="tr11()">c</th>
+                <th onclick="tr11()">%</th>
+                <th onclick="tr11()">X</th>
+                <th onclick="tr11()">\</th>
+               </tr>
+               <tr>
+                <th onclick="tr21()">7</th>
+            <th onclick="tr22()">8</th>
+                 <th onclick="tr23()">9</th>
+                <th onclick="tr24()">*</th>
+                </tr>
+                <tr>
+                     <th onclick="tr31()">4</th>
+                     <th onclick="tr32()">5</th>
+                     <th onclick="tr33()">6</th>
+                     <th onclick="tr34()">-</th>
+                    </tr>
+                    <tr>
+                         <th onclick="tr41()">1</th>
+                         <th onclick="tr42()">2</th>
+                         <th onclick="tr43()">3</th>
+                         <th onclick="tr44()">+</th>
+                        </tr>
+                        <tr>
+                            <th onclick="tr51()">00</th>
+                             <th onclick="tr52()">0</th>
+                             <th onclick="tr53()">.</th>
+                             <th onclick="tr54()">=</th>
+                            </tr>
+
+                </table>
+</body>
+</html>
