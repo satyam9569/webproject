@@ -1,0 +1,88 @@
+#iner{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#mouth{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    border-bottom-left-radius:60px ;
+    border-bottom-right-radius:60px ;
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    background-color:red;
+}
+#first{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+#second{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+#pra1{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px  dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    padding: 1em;
+    margin-left: 2em;
+    box-shadow: 2px 2px 5px green;
+    
+}
+#pra1:hover{
+    box-shadow: 15px 15px 10px green;
+    transition: 1s;
+}
+.pra2{
+    display: inline-block;
+    padding: 100px;
+}
+#pra3{
+    background-image:url("2.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+}
+#pra4{
+    background-image:url("3.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+div{
+    display: inline-block;
+    
+}
+.st{
+    border: 5px solid black;
+    height: 300px;
+    width: 200px;
+    box-shadow: 2px 2px 8px black;
+    margin: 15px;
+  
+}
+.st:hover{
+    box-shadow: 2px 2px 38px black; 
+   
+}
+

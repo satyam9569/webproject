@@ -1,0 +1,21 @@
+#main{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+.st{
+    color:red;
+    background-color:black;
+}
+button{
+    background-color: aliceblue;
+    color: black;
+}
+button:hover{
+    background-color: red;
+    color: black;
+}
+input[type="checkbox"]:checked+yes{
+    color: rebeccapurple;
+}

@@ -1,0 +1,66 @@
+#container{
+    background-color: red;
+    color:black;
+    font-size: 10px;
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between ;
+height: 10%;
+width: 100%;
+
+
+}
+.box{
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+@media(max-width:900px){
+    #container{
+        background-color: blue;
+        flex-direction: column;
+    }
+} 
+#sat{
+    height:500px;
+    width: 500px;
+    border: 15px dotted rgb(97, 190, 43);
+    border-radius: 50%;
+    background-color: pink;
+    animation: myname 2s linear infinite;
+}
+@keyframes myname{
+    0%{
+    transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+h1{
+    opacity: 0.5;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0 0 8px red;
+    margin-left: -300px;
+}
+#check:checked ~h1{/*taget the sibling*/
+margin: 0px;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .button_one{
+    opacity: 0;
+}
+#myid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-row: repeat(12,1fr);
+background-color: aqua;
+height: 100px;
+width: 100px;
+
+}

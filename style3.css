@@ -1,0 +1,56 @@
+#saty{
+    height: 300px;
+    width: 100px;
+    border: 5px double black;
+    margin-left: 100px;
+}
+#sat{
+    height: 80px;
+    width: 80px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: red;
+    margin-top: 5px;
+}
+#sa{
+    height: 80px;
+    width: 80px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: yellow;
+}
+#s{
+height: 80px;
+    width: 80px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: green;
+}
+h1{
+    color: goldenrod;
+    font-style: italic;
+
+}
+h2{
+    font-weight: 900;
+    color: blue;
+    font-size: xx-large;
+}
+button{
+    background-color: aqua;
+
+}
+#ss{
+    background-color: black;
+    color: aliceblue;
+}
+div{
+    width: 300px;
+    border: 5px solid grey;
+
+}

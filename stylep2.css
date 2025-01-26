@@ -1,0 +1,28 @@
+form{
+    height: 400px;
+    width: 400px;
+    color:white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    margin:200px;
+  box-shadow: 0 0 8px white;
+}
+*{
+    background-image: url("4.jpg");
+    background-size:200vh;
+}
+#name{
+margin-left: 25px;
+}
+button{
+    margin: 110px;
+    color: white;
+}
+select{
+    color: white;
+    background-color:black;
+}
+input{
+    color:white;
+}

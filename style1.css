@@ -1,0 +1,26 @@
+#apna{
+    text-align: center;
+    color:#ffa511;
+    width: 20%;
+    font-family: legue spartan;
+    font-weight: 900;
+    text-spacing-trim: 2px;
+    line-height:normal;
+    text-decoration: double underline;
+height:100px;
+    background-color: wheat;
+text-transform:uppercase;
+}
+*{
+    background-color: black;
+    color:white;
+}
+#adam{
+    color: black;
+}
+.sat{
+    color: black;
+}
+button:hover{
+    color:red;
+}
